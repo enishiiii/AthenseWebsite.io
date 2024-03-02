@@ -8,13 +8,13 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: coral;
+    background: black;
     color: white;
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url('./mainbg.jpg');
+    background-image: url('images/mainbg.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -69,7 +69,7 @@ nav ul li a:hover::after{
 }
 /*-----------------about----------------*/
 #about{
-    background: rgb(238, 13, 58);
+    background: black;
     padding: 80px 0;
     color: #ababab;
 }
@@ -302,7 +302,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(./abarratigue.png);
+        background-image: url(images/abarratigue.png);
     }
     .header-text{
         margin-top: 100%;
